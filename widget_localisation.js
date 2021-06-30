@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function() {
 	                    console.log(data);
 	                    // https://developer.mozilla.org/fr/docs/Web/API/Body/json
 	                    ip = (data.ip.ip)
+						//patelin = (data.ip.city)
 	                    pays = (data.ip.country)
-	                    patelin = (data.ip.city)
                         // https://developer.mozilla.org/fr/docs/Web/API/Document/querySelector
                         document.querySelector('#ip').innerHTML = 'Votre Ip: <b>' + ip + '</b>';
                         //document.querySelector('#patelin').innerHTML = 'Votre patelin: <b>' + patelin + '</b>';
