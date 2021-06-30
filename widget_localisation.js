@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded", function() {
 	                    pays = (data.ip.country)
 	                    patelin = (data.ip.city)
                         // https://developer.mozilla.org/fr/docs/Web/API/Document/querySelector
-                        document.querySelector('#ip').innerHTML = 'Ip: <b>' + ip + '</b>';
-                        document.querySelector('#pays').innerHTML = 'Pays: ' + pays;
-                        document.querySelector('#patelin').innerHTML = 'Patelin: <b>' + patelin + '</b>';
+                        document.querySelector('#ip').innerHTML = 'Votre Ip: <b>' + ip + '</b>';
+                        //document.querySelector('#patelin').innerHTML = 'Votre patelin: <b>' + patelin + '</b>';
+						document.querySelector('#pays').innerHTML = 'Votre pays: <b>' + pays + '</b>';
 	                });
 	            } else {
 	                console.log("Oops, nous n'avons pas du JSON!");
